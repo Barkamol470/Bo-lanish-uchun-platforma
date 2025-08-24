@@ -1,0 +1,62 @@
+body {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                        url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            line-height: 1.6;
+        }
+.container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+.icon {
+            color: deepskyblue;
+            margin-bottom: 10px;
+            font-size: 40px;
+            margin-left: -1400px;
+        }
+.header {
+            color: deepskyblue;
+            padding: 20px;
+            border-radius: 10px;
+        }
+.logo {
+            font-size: 50px;
+            color: deepskyblue;
+            margin-bottom: 10px;
+        }
+.h1 {
+            font-size: 2.5em;
+            margin: 10px 0;
+        }
+.plan {
+            font-size: 1.2em;
+            margin: 10px 0;
+            color: deepskyblue;
+        }
+.stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+.stat-card {
+            background: rgba(30, 30, 50, 0.85);
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        }
+.stat-card i {
+            font-size: 2.5rem;
+            color: #4dc0ff;
+            margin-bottom: 10px;
+        }
+        
+.stat-number {
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
